@@ -1,4 +1,14 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Surumen.me</title><base href="https://surumen.github.io/portfolio/"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><style>body,
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Surumen.me</title>
+  <base href="https://surumen.github.io/portfolio/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    body,
     html {
         padding-top: .2rem;
         font-family: 'Fira Code', monospace;
@@ -188,7 +198,18 @@
 
     .lang-javascript.step-7 .loader .args:before {
         content: 'main.js'
-    }</style><link href="styles.ac89bfdd6de82636b768.bundle.css" rel="stylesheet"/></head><body><noscript>Please enable JavaScript to see this page!</noscript><div class="loader hidden"><div class="line"><span>Last login:<span class="now"></span>on <span id="demo"></span></span></div><div class="line"><span class="path">~/surumen.com</span><span class="branch"> master</span><span class="command"></span><span class="args"></span></div></div><script>// Opera 8.0+ (UA detection to detect Blink/v8-powered Opera)
+    }
+    </style>
+</head>
+<body>
+	<noscript>Please enable JavaScript to see this page!</noscript>
+    <div class="loader hidden">
+        <div class="line"><span>Last login:<span class="now"></span>on <span id="demo"></span></span>
+        </div>
+        <div class="line"><span class="path">~/surumen.com</span><span class="branch"> master</span><span class="command"></span><span class="args"></span></div>
+    </div>
+    <script>
+	    // Opera 8.0+ (UA detection to detect Blink/v8-powered Opera)
 		isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
 		// Firefox 1.0+
 		isFirefox = typeof InstallTrigger !== 'undefined';
@@ -201,14 +222,27 @@
 		// Chrome 1+
 		isChrome = !!window.chrome && !!window.chrome.webstore;
 		// Blink engine detection
-		isBlink = (isChrome || isOpera) && !!window.CSS;</script><script>if (isFirefox) {
+		isBlink = (isChrome || isOpera) && !!window.CSS;
+	</script>
+    <script>
+    	if (isFirefox) {
     		document.getElementById("demo").innerHTML = "Firefox";
     	} else if (isSafari) {
     		document.getElementById("demo").innerHTML = "Safari";
     	} else if (isChrome) {
     		document.getElementById("demo").innerHTML = "Google Chrome";
-    	}</script><script type="text/javascript">var $loader = document.querySelector(".loader"),
+    	}
+	</script>
+    <script type="text/javascript">
+    var $loader = document.querySelector(".loader"),
         $now = document.querySelector(".now"),
         $body = document.body;
     $now.innerHTML = " " + (new Date).toString().substr(0, 24) + " ", $loader.classList.remove("hidden");
-    for (var i = 1; i <= 7; i++) ! function(e) { setTimeout(function() { $body.classList.remove("step-" + (e - 1)), $body.classList.add("step-" + e) }, 250 * e + ~~(50 * Math.random())) }(i)</script><div id="view" class="hidden"></div><app-root></app-root><link rel="stylesheet" href="https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css"><script type="text/javascript" src="assets/main.js"></script><script type="text/javascript" src="inline.318b50c57b4eba3d437b.bundle.js"></script><script type="text/javascript" src="polyfills.515ed9df1f4876ab6cb6.bundle.js"></script><script type="text/javascript" src="scripts.bb4baba9e81e99a9590a.bundle.js"></script><script type="text/javascript" src="main.4a639d63ddc71a0c33d6.bundle.js"></script></body></html>
+    for (var i = 1; i <= 7; i++) ! function(e) { setTimeout(function() { $body.classList.remove("step-" + (e - 1)), $body.classList.add("step-" + e) }, 250 * e + ~~(50 * Math.random())) }(i)
+    </script>
+    <div id="view" class="hidden"></div>
+  <app-root></app-root>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css">
+    <script type="text/javascript" src="assets/main.js"></script>
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="scripts.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+</html>
