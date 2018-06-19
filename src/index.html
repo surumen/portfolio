@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Surumen.me</title>
-  <base href="https://surumen.github.io/portfolio/">
+  <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -208,31 +208,6 @@
         </div>
         <div class="line"><span class="path">~/surumen.com</span><span class="branch"> master</span><span class="command"></span><span class="args"></span></div>
     </div>
-    <script>
-	    // Opera 8.0+ (UA detection to detect Blink/v8-powered Opera)
-		isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
-		// Firefox 1.0+
-		isFirefox = typeof InstallTrigger !== 'undefined';
-		// Safari 3.0+
-		var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
-		// Internet Explorer 6-11
-		isIE = /*@cc_on!@*/false || !!document.documentMode;
-		// Edge 20+
-		isEdge = !isIE && !!window.StyleMedia;
-		// Chrome 1+
-		isChrome = !!window.chrome && !!window.chrome.webstore;
-		// Blink engine detection
-		isBlink = (isChrome || isOpera) && !!window.CSS;
-	</script>
-    <script>
-    	if (isFirefox) {
-    		document.getElementById("demo").innerHTML = "Firefox";
-    	} else if (isSafari) {
-    		document.getElementById("demo").innerHTML = "Safari";
-    	} else if (isChrome) {
-    		document.getElementById("demo").innerHTML = "Google Chrome";
-    	}
-	</script>
     <script type="text/javascript">
     var $loader = document.querySelector(".loader"),
         $now = document.querySelector(".now"),
