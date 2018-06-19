@@ -7568,7 +7568,7 @@
                 description: "\n Upload any image to this simple website \n and it will tell you the objects present in the image\n ",
                 startsAt: new Date("2013"),
                 endsAt: void 0,
-                urls: ["https://colourco.de/", "https://github.com/tamino-martinius/colourco.de"],
+                urls: ["https://surumen.github.io/magic-box/", "https://github.com/surumen/magic-box"],
                 media: [],
                 skills: {
                     s3: t.s3,
@@ -7589,7 +7589,7 @@
                 description: "\nInteractive web-app to visualize how\n some commonly used algorithms function",
                 startsAt: new Date("2017"),
                 endsAt: void 0,
-                urls: ["https://nextparticle.nextco.de/"],
+                urls: ["https://surumen.github.io/algorithms/"],
                 media: [],
                 skills: {
                     s3: t.s3,
@@ -7610,8 +7610,8 @@
                 description: "\nSimple fitness app developed using React Native\n    ",
                 startsAt: new Date("2014"),
                 endsAt: new Date("2017"),
-                urls: ["http://www.getshar.es/",
-                    "https://github.com/tamino-martinius/api.getshar.es"
+                urls: ["http://surumen.github.io/gains/",
+                    "https://github.com/surumen/gains"
                 ],
                 media: [],
                 skills: {
@@ -7631,7 +7631,7 @@
                 description: "\n Simple compiler developed from scratch\n    ",
                 startsAt: new Date("2014"),
                 endsAt: new Date("2017"),
-                urls: ["http://particleslider.de/"],
+                urls: ["http://surumen.github.io/compiler/"],
                 media: [],
                 skills: {
                     ec2: t.ec2,
@@ -7702,10 +7702,10 @@
                 }
             }], t.leadership = [{
                 name: "Summer Coding Bootcamp",
-                description: "\nNext Model is the evolution of Meteor Smart Record. With this package\n      you are able to define Model relations and write database independend\n      queries to fetch data.\n    ",
+                description: "\nStarted a summer training program for young high school graduates\n  from underresourced communities and schools\n",
                 startsAt: void 0,
                 endsAt: void 0,
-                urls: ["Introduction to Machine Learning (CS 189)"
+                urls: ["www.msoma.org"
                 ],
                 media: [],
                 skills: {
@@ -7718,12 +7718,10 @@
                 }
             }, {
                 name: "Resolution Fellowship",
-                description: "\n      Meteor Smart Record is a package to define Model relations and write\n    ",
+                description: "\n Awarded to undergraduates around the world with the most promising\n social ventures \n  ",
                 startsAt: new Date("2015"),
                 endsAt: new Date("2017"),
-                urls: ["https://github.com/tamino-martinius/meteor-smart-record",
-                    "https://github.com/tamino-martinius/meteor-smart-form",
-                    "https://github.com/tamino-martinius/meteor-smart-form-delete-button"
+                urls: ["https://www.resolution.org/"
                 ],
                 media: [],
                 skills: {
@@ -7734,10 +7732,10 @@
                 }
             }, {
                 name: "Yale Young Global Scholars",
-                description: "\n      A iCalendar .ics export which also enabled to integrate recurring events.\n    ",
+                description: "\n Mentor for the 2017-18 cohort.\n    ",
                 startsAt: new Date("2015"),
                 endsAt: new Date("2015"),
-                urls: ["https://github.com/tamino-martinius/meteor-ics"],
+                urls: [],
                 media: [],
                 skills: {
                     meteor: t.meteor,
@@ -7745,10 +7743,10 @@
                 }
             }, {
                 name: "MasterCard Foundation Fellowship",
-                description: "\n      This pacakge provides a non blocking way to integrate Google Analytics\n      where the credentials are dynamically fetched from the Server.\n    ",
+                description: "\n\n \n    ",
                 startsAt: new Date("2015"),
                 endsAt: new Date("2015"),
-                urls: ["https://github.com/tamino-martinius/meteor-lazy-analytics"],
+                urls: ["https://www.mastercardfdn.org"],
                 media: [],
                 skills: {
                     meteor: t.meteor,
@@ -7759,21 +7757,21 @@
                 tendo: "description",
                 siku: "completed",
                 vitu: "skills",
-                description: "\n      This Atom package enables syntax highlighting of Meteors Spacebars language.\n      Currently not maintained because i use VS Code now as main Editor.\n    ",
+                description: "\n A review of popular data mining techniques in Python.\n",
                 startsAt: new Date("2016"),
                 endsAt: new Date("2016"),
-                urls: ["https://github.com/tamino-martinius/atom-language-spacebars"],
+                urls: ["https://github.com/surumen/data-mining"],
                 media: [],
                 skills: {}
             }, {
-                name: "A Review of Gradient Descent Algorithms",
+                name: "Gradient Descent Algorithms",
                 tendo: "description",
                 siku: "completed",
                 vitu: "skills",
-                description: "\n      This Atom package enables syntax highlighting of Meteors Spacebars language.\n      Currently not maintained because i use VS Code now as main Editor.\n    ",
+                description: "\nImplementing batch, mini-batch, and stochastic gradient descent algorithms in Python\n ",
                 startsAt: new Date("2016"),
                 endsAt: new Date("2016"),
-                urls: ["https://github.com/tamino-martinius/atom-language-spacebars"],
+                urls: ["https://github.com/surumen/gradient-descent"],
                 media: [],
                 skills: {}
             }, {
@@ -7781,11 +7779,11 @@
                 tendo: "description",
                 siku: "completed",
                 vitu: "skills",
-                description: "\n      This repository generates a rainbow table of Ubuntu versions and Ruby\n      versions. The source is available on GitHub and the prebuild images\n      are available on Docker Hub.\n    ",
+                description: "\nA comparison of popular algorithms used for regression and classification\n    ",
                 startsAt: new Date("2017"),
                 endsAt: new Date("2018"),
-                urls: ["https://hub.docker.com/r/taminomartinius/rvm/",
-                    "https://github.com/tamino-martinius/docker-rvm"
+                urls: ["https://surumen.github.io/ml",
+                    "https://github.com/surumen/ml"
                 ],
                 media: [],
                 skills: {
@@ -7796,10 +7794,10 @@
                 tendo: "description",
                 siku: "completed",
                 vitu: "skills",
-                description: "\n      This Atom package enables syntax highlighting of Meteors Spacebars language.\n      Currently not maintained because i use VS Code now as main Editor.\n    ",
+                description: "\nMulti-class classification using linear and quadratic discriminant analysis in Python\n ",
                 startsAt: new Date("2016"),
                 endsAt: new Date("2016"),
-                urls: ["https://github.com/tamino-martinius/atom-language-spacebars"],
+                urls: ["https://github.com/surumen/discriminant-analysis"],
                 media: [],
                 skills: {}
             }, {
@@ -7807,32 +7805,33 @@
                 tendo: "description",
                 siku: "completed",
                 vitu: "skills",
-                description: "\n      This Atom package enables syntax highlighting of Meteors Spacebars language.\n      Currently not maintained because i use VS Code now as main Editor.\n    ",
+                description: "\nCCA implemented in Python.\n ",
                 startsAt: new Date("2016"),
                 endsAt: new Date("2016"),
-                urls: ["https://github.com/tamino-martinius/atom-language-spacebars"],
+                urls: ["https://github.com/surumen/cca"],
                 media: [],
                 skills: {}
             }, {
-                name: "Multi-Class Classification using multiple K-Nearest Neighbors Algorithms",
+                name: "K-Nearest Neighbors Algorithms",
                 tendo: "description",
                 siku: "completed",
                 vitu: "skills",
-                description: "\n      This Atom package enables syntax highlighting of Meteors Spacebars language.\n      Currently not maintained because i use VS Code now as main Editor.\n    ",
+                description: "\n Multi-class classification using multiple K-Nearest Neighbors algorithms\n",
                 startsAt: new Date("2016"),
                 endsAt: new Date("2016"),
-                urls: ["https://github.com/tamino-martinius/atom-language-spacebars"],
+                urls: ["https://github.com/surumen/knn"],
                 media: [],
                 skills: {}
             }, {
-                name: "Multi-Class Classification using Support Vector Machine in Python",
+                name: "Support Vector Machine",
                 tendo: "description",
                 siku: "completed",
                 vitu: "skills",
-                description: "\n      This Atom package enables syntax highlighting of Meteors Spacebars language.\n      Currently not maintained because i use VS Code now as main Editor.\n    ",
+                description: "\nMulti-class classification using Support Vector Machine in Python\n",
                 startsAt: new Date("2016"),
                 endsAt: new Date("2016"),
-                urls: ["https://github.com/tamino-martinius/atom-language-spacebars"],
+                urls: ["https://surumen.github.io/svm",
+                "https://github.com/surumen/svm"],
                 media: [],
                 skills: {}
             }, {
@@ -7840,10 +7839,10 @@
                 tendo: "description",
                 siku: "completed",
                 vitu: "skills",
-                description: "\n      This Atom package enables syntax highlighting of Meteors Spacebars language.\n      Currently not maintained because i use VS Code now as main Editor.\n    ",
+                description: "\nSimple implementation of facial recognition, with dimension reduction\n",
                 startsAt: new Date("2016"),
                 endsAt: new Date("2016"),
-                urls: ["https://github.com/tamino-martinius/atom-language-spacebars"],
+                urls: ["https://github.com/surumen/facial-recognition"],
                 media: [],
                 skills: {}
             }, {
@@ -7851,21 +7850,21 @@
                 tendo: "description",
                 siku: "completed",
                 vitu: "skills",
-                description: "\n      This Atom package enables syntax highlighting of Meteors Spacebars language.\n      Currently not maintained because i use VS Code now as main Editor.\n    ",
+                description: "\nAdding Sounds to Silent Movies using Convolutional Neural Networks\n",
                 startsAt: new Date("2016"),
                 endsAt: new Date("2016"),
-                urls: ["https://github.com/tamino-martinius/atom-language-spacebars"],
+                urls: ["https://github.com/surumen/sounds-movies-cnn"],
                 media: [],
                 skills: {}
             }, {
-                name: "Reinforcement Learning",
+                name: "Boosting Algorithms",
                 tendo: "description",
                 siku: "completed",
                 vitu: "skills",
-                description: "\n      This Atom package enables syntax highlighting of Meteors Spacebars language.\n      Currently not maintained because i use VS Code now as main Editor.\n    ",
+                description: "\nGradient boosting, XG Boost, and Cat Boost implemented in Python\n",
                 startsAt: new Date("2016"),
                 endsAt: new Date("2016"),
-                urls: ["https://github.com/tamino-martinius/atom-language-spacebars"],
+                urls: ["https://github.com/surumen/ml-boosting"],
                 media: [],
                 skills: {}
             }]
